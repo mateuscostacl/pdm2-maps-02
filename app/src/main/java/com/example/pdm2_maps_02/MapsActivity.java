@@ -98,7 +98,7 @@ public class MapsActivity extends AppCompatActivity
         LatLng palmas = new LatLng(-10.184446, -48.333762);
         mMap.addMarker(new MarkerOptions().position(palmas).title("Praça dos Girassóis em Palmas Tocantins")).showInfoWindow();
         mMap.moveCamera(CameraUpdateFactory.newLatLng(palmas));
-        mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(palmas, 16));
+        mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(palmas, 10));
     }
 
     @Override
